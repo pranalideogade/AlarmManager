@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranali_deogade.alarmmanager.NextActivity"
+   >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="17dp"
+        android:text="Hi  \nHappy birthday \nFrom here you need to do 3 things which I am saying you now \nfirst: type this url on desktop browser \nhttps://mnkydluffyy58.wordpress.com \nnot on mobile \nsecond: go to this link\nthird: for third one u need to click on button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="91dp"
+        android:text="Me" />
+</RelativeLayout>
