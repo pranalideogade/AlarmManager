@@ -16,7 +16,7 @@ import android.support.v7.app.AppCompatActivity;
 public class MyAlarm extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        MediaPlayer mediaPlayer=MediaPlayer.create(context, R.raw.mere);
+        MediaPlayer mediaPlayer=MediaPlayer.create(context, R.raw.duele);
         mediaPlayer.start();
         Intent i = new Intent(context, AlarmService.class);
         context.startService(i);

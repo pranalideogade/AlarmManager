@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
        calendar=Calendar.getInstance();
         textClock=(TextClock)findViewById(R.id.textClock);
         passWord=(EditText)findViewById(R.id.passWord);
-         String oldstring = "2017-12-14 16:45:00.0";
+         String oldstring = "2017-12-22 13:45:00.0";
                 try {
                     date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.S").parse(oldstring);
                 } catch (ParseException e) {

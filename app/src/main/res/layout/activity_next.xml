@@ -15,14 +15,24 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="26dp"
         android:layout_marginTop="17dp"
-        android:text="Hi  \nHappy birthday \nFrom here you need to do 3 things which I am saying you now \nfirst: type this url on desktop browser \nhttps://mnkydluffyy58.wordpress.com \nnot on mobile \nsecond: go to this link\nthird: for third one u need to click on button" />
+        android:text="Hi  \nHappy birthday \nFrom here you need to do 3 things which I am saying you now \nfirst: type this url on desktop browser \nhttps://mnkydluffyy58.wordpress.com \nnot on mobile \nsecond: click on button Mio \nthird: for third one u need to click on Me" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView"
-        android:layout_centerVertical="true"
         android:layout_marginStart="91dp"
-        android:text="Me" />
+        android:text="Me"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="138dp" />
+
+    <Button
+        android:id="@+id/mio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="24dp"
+        android:text="Mio" />
 </RelativeLayout>

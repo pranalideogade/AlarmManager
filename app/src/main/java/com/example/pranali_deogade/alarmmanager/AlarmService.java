@@ -22,8 +22,8 @@ public class AlarmService extends Service {
     public void onStart(Intent intent, int startId) {
         NotificationManager notif=(NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
         Notification notify=new Notification.Builder
-                (getApplicationContext()).setContentTitle("pran").setContentText("hie").
-                setContentTitle("amo").setSmallIcon(R.mipmap.ic_launcher).build();
+                (getApplicationContext()).setContentTitle("pran").setContentText("Enter password *****#57").
+                setContentTitle("Rohit").setSmallIcon(R.mipmap.prince).build();
 
         notify.flags |= Notification.FLAG_AUTO_CANCEL;
         notif.notify(0, notify);
